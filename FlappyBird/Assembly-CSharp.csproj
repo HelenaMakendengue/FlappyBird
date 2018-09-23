@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayAgain.cs" />
     <Compile Include="Assets\Scripts\ScoreManger.cs" />
+    <Compile Include="Assets\Scripts\TopScore.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/helenamakendengue/Desktop/Unity/FlappyBird/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
