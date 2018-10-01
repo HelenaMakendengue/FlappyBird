@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{E3EF6E53-88BE-20EB-65C7-C65330B49779}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TopScore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Flappy.cs">
     <Files>
-      <File FileName="Assets/Scripts/Flappy.cs" Line="25" Column="5" />
+      <File FileName="Assets/Scripts/Flappy.cs" Line="5" Column="1" />
       <File FileName="Assets/Scripts/Obstacle.cs" Line="15" Column="10" />
       <File FileName="Assets/Scripts/ObstacleSpawner.cs" Line="21" Column="50" />
-      <File FileName="Assets/Scripts/ScoreManger.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/ScoreManger.cs" Line="7" Column="1" />
       <File FileName="Assets/Scripts/PlayAgain.cs" Line="11" Column="35" />
       <File FileName="Assets/Scripts/TopScore.cs" Line="16" Column="47" />
     </Files>
