@@ -10,7 +10,7 @@ public class TopScore : MonoBehaviour {
     public Text text;
 
     void Update () {
-        if(ScoreManger.SCORE > HIGHSCORE) {
+        if (ScoreManger.SCORE > HIGHSCORE) {
             HIGHSCORE = ScoreManger.SCORE;
         }
         text.text = "Top Score: " + HIGHSCORE;
