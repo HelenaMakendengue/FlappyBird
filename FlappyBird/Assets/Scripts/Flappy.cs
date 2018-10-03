@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Flappy : MonoBehaviour {
 
     public GameObject playAgainButton;
+    public GameObject topScorePanel;
 
     public Rigidbody rb;
     public float jumpForce;
@@ -13,6 +14,11 @@ public class Flappy : MonoBehaviour {
     private void Start()
     {
         Debug.Log("Hello World!");
+    }
+
+    void Awake()
+    {
+        topScorePanel.SetActive(false);
     }
 
     private void Update()
@@ -31,6 +37,7 @@ public class Flappy : MonoBehaviour {
 
         Destroy(gameObject);
         playAgainButton.SetActive(true);
+        topScorePanel.SetActive(true);
     }
 
     void OnTriggerEnter(Collider other)
