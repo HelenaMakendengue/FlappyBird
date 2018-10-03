@@ -35,9 +35,13 @@ public class Flappy : MonoBehaviour {
         //ScoreManger.SCORE = 0;
         //SceneManager.LoadScene(0);
 
-        Destroy(gameObject);
-        playAgainButton.SetActive(true);
-        topScorePanel.SetActive(true);
+        LifeManager.LIVES--;
+
+        if (LifeManager.LIVES == 0) {
+            Destroy(gameObject);
+            playAgainButton.SetActive(true);
+            topScorePanel.SetActive(true);
+        }
     }
 
     void OnTriggerEnter(Collider other)
